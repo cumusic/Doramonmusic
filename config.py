@@ -14,9 +14,9 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐌σσ𝐍 𝐗 𝐌υʂι𝐂")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "νινєκ ϰ мυѕιϲ")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5551014551").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6815918609").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/mrtosumemon/DoReAmOn
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/THE_INCRICIBLE")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/INCRICIBLE")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+BWno66vBDh8yYmNl")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+BWno66vBDh8yYmNl")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -51,7 +51,7 @@ VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
 
-CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "12"))
+CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "5"))
 
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
@@ -75,22 +75,22 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/929a2ae1bba42e733aae6.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/8cd185b789502fe75c10e.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/e12595049bd2a9fe5cfbb.jpg",
+    "https://telegra.ph/file/a54caaf0a8f30be54e4f8.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://graph.org/file/929a2ae1bba42e733aae6.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/dd799cb0652f1462e31f1.jpg"
 
-GLOBAL_IMG_URL = "https://graph.org/file/929a2ae1bba42e733aae6.jpg"
+GLOBAL_IMG_URL = "https://telegra.ph/file/ebe5acccb2e9ddf15d714.jpg"
 
-STATS_IMG_URL = "https://graph.org/file/929a2ae1bba42e733aae6.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/cbbfe284b42c403a6bbbd.jpg"
 
-TELEGRAM_AUDIO_URL = "https://graph.org/file/929a2ae1bba42e733aae6.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/6f93dcaa2c5943253c149.jpg"
 
-TELEGRAM_VIDEO_URL = "https://graph.org/file/929a2ae1bba42e733aae6.jpg"
+TELEGRAM_VIDEO_URL = ""
 
 STREAM_IMG_URL = "https://graph.org/file/929a2ae1bba42e733aae6.jpg"
 
